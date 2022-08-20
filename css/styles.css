@@ -17,7 +17,7 @@ body {
     padding: 30px;
 }
 
-header {
+.header {
     background-image: linear-gradient(to right bottom, rgba(142, 158, 252, .6), rgba(28, 62, 255, .8)), url('../img/background1.jpg');
     background-size: cover;
     background-position: top;
@@ -29,7 +29,7 @@ header {
 }
 
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,11 +37,11 @@ header {
     text-align: center;
 }
 
-.logo {
+.header__logo {
     height: 70px;
 }
 
-.logo-box {
+.header__logo-box {
     top: 30px;
     left: 30px;
 }
@@ -55,7 +55,7 @@ header {
 }
 
 
-.heading-primary__main {
+.heading-primary--main {
     display: block;
     font-size: 62px;
     font-weight: 400;
@@ -64,7 +64,7 @@ header {
     animation: moveInLeft 1s ease-out;
 }
 
-.heading-primary__sub {
+.heading-primary--sub {
     display: block;
     font-size: 20px;
     font-weight: 700;
@@ -85,7 +85,7 @@ header {
     position: relative;
 }
 
-.btn-white {
+.btn--white {
     color: #777777;
     background-color: #fff;
 }
@@ -115,7 +115,7 @@ header {
     transition: all .5s;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: #fff;
 }
 
@@ -124,7 +124,7 @@ header {
     opacity: 0;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInTop 0.5s ease-out 0.5s;
     animation-fill-mode: backwards
 }
